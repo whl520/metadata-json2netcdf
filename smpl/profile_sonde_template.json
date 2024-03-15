@@ -10,7 +10,7 @@
                 "altitude"
             ],
             "attributes": {
-                "_FillValue": -9999,
+                "FillValue": -9999,
                 "units": "degrees_east",
                 "long_name": "GPS longitude of observation",
                 "standard_name": "longitude",
@@ -25,7 +25,7 @@
                 "altitude"
             ],
             "attributes": {
-                "_FillValue": -9999,
+                "FillValue": -9999,
                 "units": "degrees_north",
                 "long_name": "GPS latitude of observation",
                 "standard_name": "latitude",
@@ -40,7 +40,7 @@
                 "altitude"
             ],
             "attributes": {
-                "_FillValue": -9999,
+                "FillValue": -9999,
                 "units": "days since 1950-01-01T00:00:00",
                 "long_name": "Time of observation",
                 "standard_name": "time",
@@ -80,7 +80,7 @@
                 "altitude"
             ],
             "attributes": {
-                "_FillValue": -9999,
+                "FillValue": -9999,
                 "long_name": "Air Temperature",
                 "standard_name": "air_temperature",
                 "coordinates": "time altitude longitude latitude",
