@@ -42,7 +42,7 @@
                 "long_name": "Latitude",
                 "standard_name": "latitude",
                 "units": "degrees_north",
-                "_FillValue": -9999,
+                "FillValue": -9999,
                 "valid_range": [
                     -60,
                     60
@@ -60,7 +60,7 @@
                 "long_name": "Longitude",
                 "standard_name": "longitude",
                 "units": "degrees_east",
-                "_FillValue": -9999,
+                "FillValue": -9999,
                 "valid_range": [
                     0,
                     359.9999
@@ -78,7 +78,7 @@
                 "long_name": "Latent heat flux calculated from L2 FDS wind speed",
                 "coordinates": "sample_time lat lon",
                 "units": "W m-2",
-                "_FillValue": -9999,
+                "FillValue": -9999,
                 "valid_range": [
                     -200,
                     3000
@@ -96,7 +96,7 @@
                 "long_name": "Latent heat flux uncertainty",
                 "coordinates": "sample_time lat lon",
                 "units": "W m-2",
-                "_FillValue": -9999,
+                "FillValue": -9999,
                 "valid_range": [
                     20,
                     650
@@ -111,7 +111,7 @@
                 "sample"
             ],
             "attributes": {
-                "_FillValue": -9999,
+                "FillValue": -9999,
                 "long_name": "Per-sample quality flags",
                 "coordinates": "sample_time lat lon",
                 "valid_range": [
