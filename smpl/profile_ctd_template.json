@@ -23,7 +23,7 @@
                 "time"
             ],
             "attributes": {
-                "_FillValue": -999,
+                "FillValue": -999,
                 "long_name": "Latitude of CTD measurement",
                 "valid_max": 16.6695,
                 "valid_min": 16.6695,
@@ -39,7 +39,7 @@
                 "time"
             ],
             "attributes": {
-                "_FillValue": -999,
+                "FillValue": -999,
                 "long_name": "Longitude of CTD measurement",
                 "valid_max": -146.547666666667,
                 "valid_min": -146.547666666667,
@@ -56,7 +56,7 @@
                 "depth"
             ],
             "attributes": {
-                "_FillValue": 99999,
+                "FillValue": 99999,
                 "long_name": "Depth of CTD measurement",
                 "valid_max": 10000.00,
                 "valid_min": -1.0,
@@ -74,7 +74,7 @@
                 "depth"
             ],
             "attributes": {
-                "_FillValue": 99999,
+                "FillValue": 99999,
                 "long_name": "Pressure of CTD measurement",
                 "valid_max": 1062.514,
                 "valid_min": -0.893,
@@ -93,7 +93,7 @@
                 "depth"
             ],
             "attributes": {
-                "_FillValue": 9999,
+                "FillValue": 9999,
                 "long_name": "Temperature of CTD measurement",
                 "valid_max": 27.994,
                 "valid_min": 4.3943,
@@ -112,7 +112,7 @@
                 "depth"
             ],
             "attributes": {
-                "_FillValue": 9999,
+                "FillValue": 9999,
                 "long_name": "Conductivity of CTD measurement",
                 "valid_max": 55.32251,
                 "valid_min": -0.000297,
@@ -123,11 +123,11 @@
                 "units": "mS/cm",
                 "coverage_content_type": "physicalMeasurement"
             }
-		},  
-		"example_quality_flag": {
+        }, 
+        "example_quality_flag": {
             "type": "double",
             "dimensions": [
-                "altitude"
+                "depth"
             ],
             "attributes": {
                 "long_name": "Quality Flag",
